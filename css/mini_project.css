@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: white;
+}
+
+.headingback {
+    display: flex;
+    width: 100%;  
+    height: 775px;  
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+
+.headingback > div {
+    margin: 0px;
+}   
+
+.headingback .firstflex {
+    margin: 0px;
+    width: 31%;
+    background-color: rgb(21,21,21);
+    color: white;
+    height: 100%;    
+}
+
+.headingback .secondflex {
+    background-color: rgb(229,230,232);
+    width: 39%;
+    height: 100%;
+    color: black;
+    background-image: url("../images/simona-sergi-OfjOuw_prPg-unsplash.jpg");
+    transform: scaleX(-1);
+    background-size: 225%;
+    background-position: -340px 0px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    
+}
+
+.headingback .thirdflex {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    color: black;
+}
+
+.headingback .firstflex > h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+    -webkit-transform: scale(1, 1.15);
+    /* font-stretch:expanded; */
+    font-size: 87px;
+    position: absolute;
+    left: 175px ;
+    z-index: 1;
+}
+
+.headingback .firstflex > h1.modern {
+    background: linear-gradient(to right, white 96%, rgb(21,21,21) 4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 161px;
+}
+
+.headingback .firstflex > h1.art_gallery {
+    background: linear-gradient(to right, white 59%, rgb(21,21,21) 41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 241px;
+}
+
+.aboutUs {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(21,21,21);
+    font-size: large;
+    width: 310px;
+    height:auto;
+    position: absolute;
+    top: 176px;
+    left: 915px; 
+}
+
+.location_button a button {
+    padding: 0px;
+    font-family: 'Barlow', sans-serif;
+    font-size: medium;
+    font-weight: 450;
+    font-stretch: 100%;
+    -webkit-transform: scale(1, 1.23);
+    color: white;
+    border: 0px;
+    position: absolute;
+    top: 331px;
+    left: 915px;
+    width: 234px;
+    height: 51px;
+    padding-left: 10px;
+    background:linear-gradient(to right, rgb(21,21,21) 75%, rgb(213,150,107) 30%);
+    transition: ease-in 0.3s;
+    box-shadow: inset 0 0 0 0 rgb(207, 114, 52);
+    /* padding: 0px 24px 0px 0px; */
+}
+
+.location_button button:hover {
+    box-shadow: inset 250px 0 0 0 rgb(207, 114, 52);  
+    size: 50px;
+    border-radius: 50px;
+}
+
+.lowerSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    /* background-color: white; */
+    
+}
+
+.lowerSection div {
+    margin: 159px 76px 28px;
+    width: 310px;
+    height: auto;
+    padding: 42px 12px 0px;
+}
+
+.lowerSection .smallHeading {
+    margin-top: 132px;
+    margin-right: 20px;
+}
+
+.lowerSection .smallHeading h1 {
+    color: rgb(21,21,21);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.lowerSection .smallHeading p {
+    color: rgb(21,21,21);
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lowerSection > div.galleryPic1 {
+    background-image: url("../images/dannie-jing-3GZlhROZIQg-unsplash.jpg");
+    background-size: 600px;
+    width: 550px;
+    height: 389px;
+    background-position: -24px 0px;
+}
+
+.moreLowerSection {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1.5fr 1fr;
+    background-color: rgb(255, 255, 255);
+    row-gap: 25px;
+    column-gap: 25px;
+    height: 700px;
+    width: 100%;
+    padding: 0px 195px 50px;
+}
+
+.moreLowerSection div {
+    background-color: white;
+    
+}
+
+.moreLowerSection .galleryPic2 {
+    background-image: url("../images/khamkeo-vilaysing-k24WR_faU3k-unsplash.jpg");
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-size: 110%;
+    width: 100%;
+    height: auto;
+    background-position: -26px -150px;
+    
+}
+
+.moreLowerSection .galleryPic3 {
+    background-image: url("../images/josh-liu-Tjio9DgtIls-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 143%;
+    width: 100%;
+    height: auto;
+    background-position: -4px 0px;
+}
+
+.moreLowerSection .lastWords {
+    color: white;
+    background-color: rgb(21,21,21);
+    justify-self: center;
+    align-self: center;
+    height: 330px;
+    padding: 43px;
+}
+
+.moreLowerSection .lastWords .lastHeading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.moreLowerSection .lastWords .lastPara {
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lastSection {
+    color: white;
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(21,21,21);
+    padding: 0px 5px 0px 140px;
+}
+
+.lastSection .endCredits {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+    -webkit-transform: scale(1, 1.15);
+}
+
+.lastSection .endCredits h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.lastSection .endCredits h1.art_gallery {
+    margin-top: -10px;
+}
+
+.lastSection .openSevenDays {
+    width: 32%;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin-right: 140px;
+    padding: 85px 0px 0px 0px;
+}
+
+.lastSection .socialIcons a {
+    font-size: 20px;
+}
+
+.lastSection .socialIcons a.faceLogo {
+    margin: 10px;
+    color: white;
+}
+
+.lastSection .socialIcons a.instaLogo {
+    margin: 10px;
+    color: white;
+}
+
+.lastSection .socialIcons a.twitterLogo {
+    margin: 10px;
+    color: white;
+}
+
+.lastSection .socialIcons a.faceLogo:hover {
+    
+    color: grey;
+}
+
+.lastSection .socialIcons a.instaLogo:hover {
+    color: grey;
+}
+
+.lastSection .socialIcons a.twitterLogo:hover {
+    color: grey;
+}
